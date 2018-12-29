@@ -8,5 +8,8 @@ int main(void)
 	int sum = price * weight;
 	printf("%d\n",sum);
 	printf("%d\n", sum);
+	char a = 'a';
+	char* b = "a";
+	printf("%s\n", a);
 	return 0;
 }

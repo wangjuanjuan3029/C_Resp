@@ -1,12 +1,10 @@
 #include <stdio.h>
+#include <string>
 
 int main(void)
 {
-    int a = 10;
-    int b = 20;
-    int c = a + b;
-
-    printf("%d/n",c);
-
+    char ch[] = "hello world";
+    printf("shuzudaxiao:%d",sizeof(ch));
+    printf("zifuchuanchengdu:%d",strlen(ch));
     return 0;
 }

@@ -1,8 +1,9 @@
-﻿生成启动时间为 2018/12/28 15:57:12。
+﻿生成启动时间为 2018/12/28 17:44:26。
      1>项目“E:\coding\c\C_Resp\day02\02_const\02_const.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\dept\softwareinstall\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt "买菜.c"
          买菜.c
+     1>e:\coding\c\c_resp\day02\02_const\买菜.c(13): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
        Link:
          D:\dept\softwareinstall\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\coding\c\C_Resp\day02\02_const\Debug\02_const.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\coding\c\C_Resp\day02\02_const\Debug\02_const.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\coding\c\C_Resp\day02\02_const\Debug\02_const.lib" /MACHINE:X86 "Debug\买菜.obj"
          02_const.vcxproj -> E:\coding\c\C_Resp\day02\02_const\Debug\02_const.exe
@@ -12,4 +13,4 @@
 
 已成功生成。
 
-已用时间 00:00:00.34
+已用时间 00:00:03.43
